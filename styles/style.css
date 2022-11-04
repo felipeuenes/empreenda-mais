@@ -70,12 +70,12 @@ main table{
 }
 
 .slider{
-    width: 95%;
+    width: 100%;
     height: 170rem;
     background-color: #5494b7;
     
 
-    border-radius: 15rem;
+    
     position: relative;
     top: 30rem;
     margin: 0 auto;
