@@ -41,7 +41,20 @@ header img{
     width: 35rem;
 }
 
+main table{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
 
+main td{
+    border: 2rem solid;
+    width: 80rem;
+    height: 80rem;
+    
+    text-align: center;
+    justify-content: center;
+}
 
 .slider{
     width: 95%;
@@ -81,16 +94,23 @@ header img{
 }
 
 
-.div-animada{
+.div-menu{
     background-color: white;
     width: 200rem;
     height: 500rem;
     position: absolute;
-    z-index: +2;
-    animation-name: menu;
-    animation-duration: 1s;
+    top: 80rem;
+    z-index: +1;
+
+    left: -200rem;
+   
 }
 
+.menu-animation{
+    animation-name: menu;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
 
 
 @keyframes menu{
