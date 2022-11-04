@@ -1,0 +1,105 @@
+:root{
+    font-size: 6.25%;
+
+    scroll-behavior: smooth;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16rem;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+
+header{
+    width: 100%;
+    height: 80rem;
+    background-color: #5494b7;
+}
+
+header img{
+    width: 85rem;
+    position: relative;
+    display: grid;
+    align-items: center;
+    margin: 0 auto;
+
+    
+    top: 20rem;
+}
+
+.barras{
+    position: absolute;
+    display: flex;
+    left: 20rem;
+    width: 35rem;
+}
+
+
+
+.slider{
+    width: 95%;
+    height: 170rem;
+    background-color: #5494b7;
+    
+
+    border-radius: 15rem;
+    position: relative;
+    top: 30rem;
+    margin: 0 auto;
+}
+
+.slider img{
+    width: 100%;
+    border-radius: 15rem;
+}
+
+.first h1{
+    font-family: montserrat black;
+    text-align: center;
+    position: relative;
+
+    color: #5494b7;
+    top: 60rem;
+}
+.first p{
+    font-family: montserrat;
+    
+    position: relative;
+    font-size: 16rem;
+    color: #5494b7;
+    top: 100rem;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.div-animada{
+    background-color: white;
+    width: 200rem;
+    height: 500rem;
+    position: absolute;
+    z-index: +2;
+    animation-name: menu;
+    animation-duration: 1s;
+}
+
+
+
+@keyframes menu{
+    
+    0%{
+        
+        left: -200rem;
+    }
+    100%{
+        left: 0rem;
+    }
+}
