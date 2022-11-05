@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
     font-size: 16rem;
     margin: 0rem;
@@ -107,7 +111,19 @@ main table{
     top: 100rem;
     width: 80%;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
+}
+.box2 ul{
+    font-family: montserrat;
+    
+    position: relative;
+    font-size: 16rem;
+    color: #5494b7;
+    top: 20rem;
+    width: 80%;
+    margin: 0 auto;
+    left: 20rem;
+    
 }
 
 
@@ -166,6 +182,8 @@ main table{
         left: 0rem;
     }
 }
+
+
 
 .box2{
     position: relative;

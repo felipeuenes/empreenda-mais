@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../styles/palestra.css">
+    <title>Empreenda Mais</title>
+
+
+</head>
+<body>
+    <header>
+        <img src="images/logo-branca.png" alt="">
+
+       
+        <img class="barras" src="images/barras-menu.png" alt="" id="myMenu">
+       
+       
+    </header>
+
+    <main>
+        <section class="menu-animation">
+            <div class="div-menu ">
+              <table>
+                <tr><td><a href="index.html">Home</a></td> </tr>
+                <tr>  <td><a href="pages/palestra.html">Palestras</a></td></tr>
+                <tr> <td>Cursos</td></tr>
+                <tr> <td>Sobre</td></tr>
+                <tr> <td>Contatos</td></tr>
+               
+              </table>
+            </div>
+           </section>
+    
+           <script>
+            let myButtonMenu = document.querySelector("#myMenu");
+            let cardMenu = document.querySelector(".div-menu");
+    
+            myButtonMenu.addEventListener("click", () => {
+                cardMenu.classList.toggle("menu-animation")
+            })
+           </script>
+    
+    </main>
+</body>
+</html>
