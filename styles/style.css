@@ -68,6 +68,9 @@ main table{
     text-align: center;
     justify-content: center;
     overflow: hidden;
+
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 .dados td img{
@@ -76,6 +79,9 @@ main table{
     
     object-fit: cover;
     object-position: center;
+
+    max-width: 100vw;
+    max-height: 100vh;
     
 }
 
@@ -89,6 +95,9 @@ main table{
     position: relative;
     top: 30rem;
     margin: 0 auto;
+
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 .slider img{
@@ -126,6 +135,9 @@ main table{
     margin: 0 auto;
     left: 20rem;
     
+
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 
@@ -139,6 +151,8 @@ main table{
 
     left: -200rem;
    
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 
@@ -191,6 +205,8 @@ main table{
     position: relative;
     top: 150rem;
 
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 .box2 h1{
@@ -198,6 +214,9 @@ main table{
     text-align: center;
 
     color: #5494b7;
+
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 .box2 p{
