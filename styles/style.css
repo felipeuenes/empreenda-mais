@@ -215,8 +215,8 @@ main table{
 
     color: #5494b7;
 
-    max-width: 100vw;
-    max-height: 100vh;
+    /* max-width: 100vw;
+    max-height: 100vh; */
 }
 
 .box2 p{
