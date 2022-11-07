@@ -3,6 +3,7 @@
 
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 16rem;
+    -webkit-box-sizing: border-box;
 
 }
 *{
