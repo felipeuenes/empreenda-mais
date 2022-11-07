@@ -36,7 +36,9 @@ header img{
     align-items: center;
     margin: 0 auto;
 
+    max-width: 85vw;
     
+
     top: 20rem;
 }
 
