@@ -2,6 +2,7 @@
     font-size: 6.25%;
 
     scroll-behavior: smooth;
+    -webkit-text-size-adjust: 16rem;
 
 }
 *{
@@ -20,6 +21,8 @@ body{
     padding: 0rem;
     width: 100%;
     max-width: 100vw;
+
+   
 }
 
 
