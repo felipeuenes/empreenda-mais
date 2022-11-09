@@ -189,7 +189,7 @@ main table{
 }
 
 
-/* @keyframes menu{
+@keyframes menu{
     
     0%{
         
@@ -198,7 +198,7 @@ main table{
     100%{
         left: 0rem;
     }
-} */
+}
 
 
 
