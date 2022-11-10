@@ -1,5 +1,5 @@
 :root{
-    font-size: 6.25%;
+    /* font-size: 6.25%; */
 
     scroll-behavior: smooth;
     
@@ -17,7 +17,7 @@ a{
 }
 
 body{
-    font-size: 16rem;
+    font-size: 16px;
     margin: 0rem;
     padding: 0rem;
     width: 100%;
@@ -29,12 +29,12 @@ body{
 
 header{
     width: 100%;
-    height: 80rem;
+    height: 80px;
     background-color: #5494b7;
 }
 
 header img{
-    width: 85rem;
+    width: 85px;
     position: relative;
     display: grid;
     align-items: center;
@@ -43,14 +43,14 @@ header img{
     
     
 
-    top: 20rem;
+    top: 20px;
 }
 
 .barras{
     position: absolute;
     display: flex;
-    left: 20rem;
-    width: 35rem;
+    left: 20px;
+    width: 35px;
 }
 
 main table{
@@ -61,15 +61,15 @@ main table{
 
 .dados{
     position: relative;
-    top: 20rem;
+    top: 20px;
 }
 
 .dados td{
     border: 2rem solid #5494b7;
-    width: 100rem;
-    height: 80rem;
+    width: 100px;
+    height: 80px;
 
-    border-radius: 10rem;
+    border-radius: 10px;
     
     text-align: center;
     justify-content: center;
@@ -90,13 +90,13 @@ main table{
 
 .slider{
     width: 100%;
-    height: 170rem;
+    height: 170px;
     background-color: #5494b7;
     
 
     
     position: relative;
-    top: 30rem;
+    top: 30px;
     margin: 0 auto;
 
     max-width: 100vw;
@@ -114,13 +114,13 @@ main table{
     position: relative;
 
     color: #5494b7;
-    top: 90rem;
+    top: 90px;
 }
 .first p{
     font-family: montserrat;
     
     position: relative;
-    font-size: 16rem;
+    font-size: 16px;
     color: #5494b7;
     top: 100rem;
     width: 80%;
@@ -131,12 +131,12 @@ main table{
     font-family: montserrat;
     
     position: relative;
-    font-size: 16rem;
+    font-size: 16px;
     color: #5494b7;
-    top: 20rem;
+    top: 20px;
     width: 80%;
     margin: 0 auto;
-    left: 20rem;
+    left: 20px;
     
 
     max-width: 100vw;
@@ -146,13 +146,13 @@ main table{
 
 .div-menu{
     background-color: white;
-    width: 200rem;
-    height: 400rem;
+    width: 200px;
+    height: 400px;
     position: absolute;
-    top: 80rem;
+    top: 80px;
     z-index: +1;
 
-    left: -200rem;
+    left: -200px;
    
 }
 
@@ -160,18 +160,18 @@ main table{
 .div-menu p{
     font-family: montserrat;
     position: relative;
-    left: 20rem;
-    top: 20rem;
+    left: 20px;
+    top: 20px;
 }
 
 .div-menu td{
-    border: 1rem solid #5494b7;
+    border: 1px solid #5494b7;
 
     font-family: montserrat;
-    width: 300rem;
-    height: 50rem;
-    padding: 0rem;
-    margin: 0rem;
+    width: 300px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
 
 
     text-align: center;
@@ -193,10 +193,10 @@ main table{
     
     0%{
         
-        left: -200rem;
+        left: -200px;
     }
     100%{
-        left: 0rem;
+        left: 0px;
     }
 }
 
@@ -204,7 +204,7 @@ main table{
 
 .box2{
     position: relative;
-    top: 150rem;
+    top: 150px;
 
 
 }
@@ -225,6 +225,6 @@ main table{
 
     margin: 0 auto;
     position: relative;
-    top: 20rem;
+    top: 20px;
     color: #5494b7;
 }
