@@ -54,7 +54,7 @@ header img{
 }
 
 main table{
-    display: flex;
+    position: relative;
     width: 90%;
     margin: 0 auto;
 }
@@ -65,8 +65,8 @@ main table{
 }
 
 .dados td{
-    border: 2rem solid #5494b7;
-    width: 100px;
+    border: 2px solid #5494b7;
+    width: 200px;
     height: 80px;
 
     border-radius: 10px;
