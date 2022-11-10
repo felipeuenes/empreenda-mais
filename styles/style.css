@@ -184,7 +184,7 @@ main table{
 
 .menu-animation{
     animation-name: menu;
-    animation-duration: 1s;
+    animation-duration: 0.3s;
     animation-fill-mode: forwards;
 }
 
