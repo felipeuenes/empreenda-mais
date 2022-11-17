@@ -61,22 +61,18 @@ main table{
 
 .dados{
     position: relative;
-    top: 20px;
+    top: 10px;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
 }
 
-.dados td{
-    border: 2px solid #5494b7;
-    width: 200px;
-    height: 80px;
-
-    border-radius: 10px;
-    
-    text-align: center;
-    justify-content: center;
-    overflow: hidden;
-
-   
+.dados img{
+    width: 80px;
+    scroll-snap-align: start;
 }
+
+
 
 .dados td img{
     width: 100%;
@@ -202,6 +198,15 @@ main table{
     }
 }
 
+header{
+    position: fixed;
+    z-index: 1;
+}
+
+main{
+    position: relative;
+    top: 80px;
+}
 
 
 .box2{
