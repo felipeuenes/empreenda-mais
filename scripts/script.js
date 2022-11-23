@@ -1,19 +1,19 @@
-const imgs = document.getElementById("img");
-const img = document.querySelectorAll("#img img");
+// const imgs = document.getElementById("img");
+// const img = document.querySelectorAll("#img img");
 
 
-let idx = 0;
+// let idx = 0;
 
-function carrossel(){
-    idx++;
+// function carrossel(){
+//     idx++;
 
-    if(idx > img.length -1){
-        idx = 0;
-    }
+//     if(idx > img.length -1){
+//         idx = 0;
+//     }
 
-    imgs.style.transform = `translateX(${-idx * 120}px)`;
+//     imgs.style.transform = `translateX(${-idx * 120}px)`;
 
 
-}
+// }
 
-setInterval(carrossel, 1800);
+// setInterval(carrossel, 1800);
