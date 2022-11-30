@@ -25,10 +25,24 @@
 }
 
 .arteCursoMarketing button{
-    width: 150px;
+    width: 250px;
     height: 30px;
     position: relative;
-    left: 25%;
+    left: 10%;
 
 
+}
+
+
+.arteCurso2{
+    background-color: black;
+    width: 85%;
+    height: 380px;
+    margin: 0 auto;
+    position: relative;
+    top: 400px;
+}
+
+.arteCurso2 img{
+    width: 100%;
 }
