@@ -303,7 +303,7 @@ main{
     position: relative;
     top: 400px;
     width: 95%;
-    height: 900px;
+    height: 950px;
     background-color: #5494b7;
     margin: 0 auto;
 }
@@ -321,7 +321,7 @@ main{
 .equipe h1{
     position: relative;
     text-align: center;
-    top: 50px;
+    top: 30px;
     color: white;
 
 }
@@ -329,7 +329,7 @@ main{
 .equipe p{
     position: relative;
     text-align: center;
-    top: 50px;
+    top: 30px;
     color: black;
 }
 
@@ -341,7 +341,7 @@ main{
     position: relative;
     top: 0px;
     width: 95%;
-    height: 900px;
+    height: 500px;
     background-color: #5494b7;
     margin: 0 auto;
 }
@@ -359,7 +359,7 @@ main{
 .equipe2 h1{
     position: relative;
     text-align: center;
-    top: 50px;
+    top: 20px;
     color: white;
 
 }
@@ -367,6 +367,42 @@ main{
 .equipe2 p{
     position: relative;
     text-align: center;
-    top: 50px;
+    top: 20px;
+    color: black;
+}
+
+/* Equipe 3 */
+
+.equipe3 {
+    position: relative;
+    top: 0px;
+    width: 95%;
+    height: 950px;
+    background-color: #5494b7;
+    margin: 0 auto;
+}
+
+.equipe3 img{
+    position: relative;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+}
+
+.equipe3 h1{
+    position: relative;
+    text-align: center;
+    top: 30px;
+    color: white;
+
+}
+
+.equipe3 p{
+    position: relative;
+    text-align: center;
+    top: 30px;
     color: black;
 }
