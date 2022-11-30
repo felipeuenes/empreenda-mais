@@ -1,0 +1,25 @@
+@import url(style.css);
+
+.arteCursoMarketing{
+    background-color: black;
+    width: 85%;
+    height: 380px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+.arteCursoMarketing h1{
+    position: relative;
+    font-family: montserrat black, arial;
+    text-align: center;
+}
+
+.arteCursoMarketing p{
+    text-align: justify;
+}
+
+.arteCursoMarketing img{
+   
+    width: 100%;
+}

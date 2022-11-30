@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursos</title>
+    <link rel="stylesheet" href="../styles/cursos.css">
 </head>
 <body>
     <header>
@@ -14,7 +15,41 @@
         <img class="barras" src="../images/barras-menu.png" alt="" id="myMenu">
        
        
+       <section class="menu-animation">
+        <div class="div-menu ">
+          <table>
+            <tr><td><a href="../index.html">Home</a></td> </tr>
+            <tr>  <td><a href="../pages/palestra.html">Palestras</a></td></tr>
+            <tr> <td><a href="../pages/cursos.html">Cursos</a></td></tr>
+            <tr> <td>Sobre</td></tr>
+            <tr> <td>Contatos</td></tr>
+           
+          </table>
+        </div>
+       </section>
+
+       <script>
+        let myButtonMenu = document.querySelector("#myMenu");
+        let cardMenu = document.querySelector(".div-menu");
+
+        myButtonMenu.addEventListener("click", () => {
+            cardMenu.classList.toggle("menu-animation")
+        })
+       </script>
     </header>
-    
+
+
+    <main>
+        <div class="arteCursoMarketing">
+            <img src="../images/curso-marketing.jpg" alt="curso marketing">
+            <h1>Curso Marketing de vendas</h1>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo esse ab assumenda, provident fuga voluptatibus dolorum modi ratione magni nulla, libero quas at incidunt alias ducimus, eum totam illo quibusdam!</p>
+
+            <br>
+        </div>
+
+
+    </main>
 </body>
 </html>
