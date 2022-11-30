@@ -17,3 +17,9 @@
 // }
 
 // setInterval(carrossel, 1800);
+
+
+
+function login(){
+    window.open('/pages/palestra.html', 'popup');
+}
