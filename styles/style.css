@@ -303,7 +303,7 @@ main{
     position: relative;
     top: 400px;
     width: 95%;
-    height: 1080px;
+    height: 900px;
     background-color: #5494b7;
     margin: 0 auto;
 }
@@ -316,4 +316,57 @@ main{
     margin-right: auto;
     width: 90%;
     
+}
+
+.equipe h1{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    color: white;
+
+}
+
+.equipe p{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    color: black;
+}
+
+
+/* Equipe 2 */
+
+
+.equipe2{
+    position: relative;
+    top: 0px;
+    width: 95%;
+    height: 900px;
+    background-color: #5494b7;
+    margin: 0 auto;
+}
+
+.equipe2 img{
+    position: relative;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+}
+
+.equipe2 h1{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    color: white;
+
+}
+
+.equipe2 p{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    color: black;
 }
