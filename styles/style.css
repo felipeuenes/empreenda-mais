@@ -297,3 +297,23 @@ main{
 
     margin: 0 auto;
 }
+
+
+.equipe{
+    position: relative;
+    top: 400px;
+    width: 95%;
+    height: 1080px;
+    background-color: #5494b7;
+    margin: 0 auto;
+}
+
+.equipe img{
+    position: relative;
+    top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+}
