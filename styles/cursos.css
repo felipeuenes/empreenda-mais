@@ -23,3 +23,12 @@
    
     width: 100%;
 }
+
+.arteCursoMarketing button{
+    width: 150px;
+    height: 30px;
+    position: relative;
+    left: 25%;
+
+
+}
