@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+    <link rel="stylesheet" href="../styles/sobre.css">
+</head>
+<body>
+    <header>
+        <img src="../images/logo-branca.png" alt="">
+
+       
+        <img class="barras" src="../images/barras-menu.png" alt="" id="myMenu">
+       
+       
+       <section class="menu-animation">
+        <div class="div-menu ">
+          <table>
+            <tr><td><a href="../index.html">Home</a></td> </tr>
+            <tr>  <td><a href="../pages/palestra.html">Palestras</a></td></tr>
+            <tr> <td><a href="../pages/cursos.html">Cursos</a></td></tr>
+            <tr> <td>Sobre</td></tr>
+            <tr> <td>Contatos</td></tr>
+           
+          </table>
+        </div>
+       </section>
+
+       <script>
+        let myButtonMenu = document.querySelector("#myMenu");
+        let cardMenu = document.querySelector(".div-menu");
+
+        myButtonMenu.addEventListener("click", () => {
+            cardMenu.classList.toggle("menu-animation")
+        })
+       </script>
+    </header>
+    <main>
+
+        <h1>Equipe Empreenda Mais 2022</h1>
+        <div class="equipe">
+            <img src="../images/SOCORRO.jpg" alt="">
+    
+            <h1>Socorro Teixeira</h1>
+            <p>Gerente no Empreenda Mais</p>
+          </div>
+    
+    
+          
+          <div class="equipe2">
+            <img src="../images/GISLANE.jpg" alt="">
+    
+            <h1>Gislane Oliveira</h1>
+            <p>Auxiliar Administrativo</p>
+          </div>
+    
+    
+    
+          <div class="equipe3">
+            <img src="../images/FELIPE.jpg" alt="">
+    
+            <h1>Felipe Uenes</h1>
+            <p>Acessor de Marketing</p>
+          </div>
+    </main>
+    
+</body>
+</html>
