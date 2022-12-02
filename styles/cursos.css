@@ -33,6 +33,10 @@
 
 }
 
+/* 2 */
+
+
+
 
 .arteCurso2{
     background-color: black;
@@ -43,6 +47,25 @@
     top: 400px;
 }
 
+.arteCurso2 h1{
+    position: relative;
+    font-family: montserrat black, arial;
+    text-align: center;
+}
+
+.arteCurso2 p{
+    text-align: justify;
+}
+
 .arteCurso2 img{
     width: 100%;
+}
+
+.arteCurso2 button{
+    width: 250px;
+    height: 30px;
+    position: relative;
+    left: 10%;
+
+
 }
