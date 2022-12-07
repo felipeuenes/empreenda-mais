@@ -221,12 +221,27 @@ main table{
     animation-fill-mode: forwards;
 }
 
+.containerGeralDesative{
+    animation-name: goD;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+
 @keyframes go {
     0% {
         transform: translateX(0px);
     }
     100% {
-        transform: translateX(400px);
+        transform: translateX(300px);
+    }
+}
+
+@keyframes goD {
+    0% {
+        transform: translateX(300px);
+    }
+    100% {
+        transform: translateX(0px);
     }
 }
 
