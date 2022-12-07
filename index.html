@@ -9,7 +9,11 @@
     <title>Empreenda Mais</title>
 </head>
 <body>
-    <header>
+ 
+  <div class="containerGeral" id="animation-body"></div>
+   
+
+  <header>
         <img src="images/logo-branca.png" alt="">
 
        <!-- <button id="botao" onclick="login()">Teste</button> -->
@@ -38,6 +42,19 @@
             cardMenu.classList.toggle("menu-animation")
         })
        </script>
+ 
+
+  <script>
+      
+      let animation = document.querySelector(".animation-body");
+      
+      myButtonMenu.addEventListener("click", () => {
+          animation.classList.toggle("containerGeral")
+        })
+        
+  
+
+    </script>
     </header>
 
 
@@ -118,7 +135,7 @@
         <div class="quadroNoticia3"></div>
       </div>
 
-
+    </div> 
 
 
      

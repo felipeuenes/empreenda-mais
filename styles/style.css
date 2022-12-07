@@ -161,7 +161,7 @@ main table{
 .div-menu{
     background-color: white;
     width: 200px;
-    height: 400px;
+    height: 100vh;
     position: absolute;
     top: 80px;
     z-index: +1;
@@ -212,6 +212,21 @@ main table{
     }
     100%{
         left: 0px;
+    }
+}
+
+.containerGeral{
+    animation-name: go-back;
+    animation-duration: 0.8s;
+
+}
+
+@keyframes go-back {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(400px);
     }
 }
 
