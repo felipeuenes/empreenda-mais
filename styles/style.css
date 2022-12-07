@@ -216,12 +216,12 @@ main table{
 }
 
 .containerGeral{
-    animation-name: go-back;
+    animation-name: go;
     animation-duration: 0.8s;
-
+    animation-fill-mode: forwards;
 }
 
-@keyframes go-back {
+@keyframes go {
     0% {
         transform: translateX(0px);
     }
