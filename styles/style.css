@@ -31,7 +31,7 @@ body{
     max-width: 100%;
     max-height: 100vh;
 
-    overflow-x: hidden;
+    overflow: hidden;
     
 
    font-family: Arial, Helvetica, sans-serif;
@@ -169,10 +169,10 @@ main table{
     top: 8px;
     
     margin: 10px;
-    /* width: 80vw;
-    height: 100vh;
+    width: 80vw;
+    height: 100vh; 
     
-    overflow: hidden; */
+    /* overflow-y: hidden; */
     
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
@@ -230,6 +230,7 @@ main table{
 }
 
 .containerGeral{
+    height: 100vh;
     animation-name: go;
     animation-duration: 0.8s;
     animation-fill-mode: forwards;
