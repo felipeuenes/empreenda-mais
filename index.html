@@ -20,46 +20,55 @@
 
         <img class="barras" src="images/barras-menu.png" alt="" id="myMenu">
        
-       
-       <section class="menu-animation">
+ 
+    </header>
+
+    <main>
+
+
+      <section class="menu-animation">
         <div class="div-menu ">
-          <table>
+          <!-- <table>
             <tr><td><a href="index.html">Home</a></td> </tr>
             <tr>  <td><a href="pages/palestra.html">Palestras</a></td></tr>
             <tr> <td><a href="pages/cursos.html">Cursos</a></td></tr>
             <tr> <td><a href="pages/sobre.html">Sobre</a></td></tr>
             <tr> <td>Contatos</td></tr>
-           
-          </table>
+            
+          </table> -->
+
+          <a href="index.html"><button>Home</button></a>
+          <a href="pages/palestra.html"><button>Palestras</button></a>
+          <a href="pages/cursos.html"><button>Cursos</button></a>
+          <a href="pages/sobre.html"><button>Sobre</button></a>
+          <a href="#"><button>Contatos</button></a>
+
+
         </div>
        </section>
-
+  
        <script>
         const myButtonMenu = document.querySelector("#myMenu");
         let cardMenu = document.querySelector(".div-menu");
-
+  
         // myButtonMenu.addEventListener("click", () => {
         //     cardMenu.classList.toggle("menu-animation")
         // })
-
+  
        </script>
- 
-
+  
+  
+  
   <script>
+        
       
-    
-    // myButtonMenu.addEventListener("click", () => {
-      //    animation.classList.toggle("containerGeralDesative");
-      //    animation.classList.toggle("containerGeral");
-      
-      // })
       let animation = document.querySelector("#animation-body");
       
         myButtonMenu.addEventListener("click", () => {
           let isMenuActive = animation.classList.contains("containerGeral")
-
+  
           console.log(isMenuActive);
-
+  
           if (isMenuActive) {
               animation.classList.remove("containerGeral");
               animation.classList.add("containerGeralDesative");
@@ -71,12 +80,12 @@
         })
         
   
-
+  
     </script>
-    </header>
 
 
-    <main>
+
+
 
         <div class="container">
           <div class="dados" id="img">
