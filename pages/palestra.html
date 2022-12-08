@@ -11,37 +11,72 @@
 
 </head>
 <body>
+  <div class=" " id="animation-body">
     <header>
         <img src="../images/logo-branca.png" alt="">
 
        
         <img class="barras" src="../images/barras-menu.png" alt="" id="myMenu">
        
-       
-        <section class="menu-animation">
-            <div class="div-menu ">
-              <table>
-                <tr><td><a href="../index.html">Home</a></td> </tr>
-                <tr>  <td><a href="../pages/palestra.html">Palestras</a></td></tr>
-                <tr> <td><a href="../pages/cursos.html">Cursos</a></td></tr>
-                <tr> <td>Sobre</td></tr>
-                <tr> <td>Contatos</td></tr>
-               
-              </table>
-            </div>
-           </section>
-    
-           <script>
-            let myButtonMenu = document.querySelector("#myMenu");
-            let cardMenu = document.querySelector(".div-menu");
-    
-            myButtonMenu.addEventListener("click", () => {
-                cardMenu.classList.toggle("menu-animation")
-            })
-           </script>
     </header>
 
+
     <main>
+
+      <section class="menu-animation">
+        
+        
+        <div class="div-menu ">
+      
+          
+          <h1>Menu</h1>
+          
+
+          <a href="index.html"><button>Home</button></a>
+          <a href="pages/palestra.html"><button>Palestras</button></a>
+          <a href="pages/cursos.html"><button>Cursos</button></a>
+          <a href="pages/sobre.html"><button>Sobre</button></a>
+          <a href="#"><button>Contatos</button></a>
+
+
+        </div>
+       </section>
+  
+       <script>
+        const myButtonMenu = document.querySelector("#myMenu");
+        let cardMenu = document.querySelector(".div-menu");
+  
+      
+       </script>
+  
+  
+  
+  <script>
+        
+      
+      let animation = document.querySelector("#animation-body");
+      
+        myButtonMenu.addEventListener("click", () => {
+          let isMenuActive = animation.classList.contains("containerGeral")
+  
+          console.log(isMenuActive);
+  
+          if (isMenuActive) {
+              animation.classList.remove("containerGeral");
+              animation.classList.add("containerGeralDesative");
+           } 
+           else{
+              animation.classList.remove("containerGeralDesative");
+              animation.classList.add("containerGeral");
+          }
+        })
+        
+  
+  
+    </script>
+
+  
+
 
 <div class="palestras">
     <h1>Palestras</h1>
@@ -55,5 +90,7 @@
   </div>
     
     </main>
+
+  </div>
 </body>
 </html>
