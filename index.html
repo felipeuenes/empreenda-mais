@@ -10,7 +10,7 @@
 </head>
 <body>
  
-  <div class="containerGeralDesative " id="animation-body">
+  <div class=" " id="animation-body">
    
 
   <header>
@@ -35,7 +35,7 @@
        </section>
 
        <script>
-        let myButtonMenu = document.querySelector("#myMenu");
+        const myButtonMenu = document.querySelector("#myMenu");
         let cardMenu = document.querySelector(".div-menu");
 
         // myButtonMenu.addEventListener("click", () => {
@@ -47,12 +47,27 @@
 
   <script>
       
-        let animation = document.querySelector("#animation-body");
+    
+    // myButtonMenu.addEventListener("click", () => {
+      //    animation.classList.toggle("containerGeralDesative");
+      //    animation.classList.toggle("containerGeral");
+      
+      // })
+      let animation = document.querySelector("#animation-body");
       
         myButtonMenu.addEventListener("click", () => {
-           animation.classList.toggle("containerGeralDesative");
-           animation.classList.toggle("containerGeral");
+          let isMenuActive = animation.classList.contains("containerGeral")
 
+          console.log(isMenuActive);
+
+          if (isMenuActive) {
+              animation.classList.remove("containerGeral");
+              animation.classList.add("containerGeralDesative");
+           } 
+           else{
+              animation.classList.remove("containerGeralDesative");
+              animation.classList.add("containerGeral");
+          }
         })
         
   
