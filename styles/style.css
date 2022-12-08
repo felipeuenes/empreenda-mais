@@ -31,6 +31,9 @@ body{
     max-width: 100%;
     max-height: 100vh;
 
+    overflow-x: hidden;
+    
+
    font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -164,11 +167,12 @@ main table{
     
     
     top: 8px;
-    overflow: hidden;
     
     margin: 10px;
+    /* width: 80vw;
+    height: 100vh;
     
-    
+    overflow: hidden; */
     
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
@@ -207,7 +211,6 @@ main table{
 }
 
 .menu-animation{
-
     
     animation-name: menu;
     animation-duration: 0.3s;
