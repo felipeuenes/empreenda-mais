@@ -251,19 +251,19 @@ main table{
 
 @keyframes go {
     0% {
-        transform: translateX(0px);
+        margin-left: 0px;
     }
     100% {
-        transform: translateX(300px);
+        margin-left: 300px;
     }
 }
 
 @keyframes goD {
     from {
-        transform: translateX(300px);
+        margin-left: 300px;
     }
     to {
-        transform: translateX(0px);
+        margin-left: 0px;
     }
 }
 
