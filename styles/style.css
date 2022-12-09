@@ -41,7 +41,7 @@ body{
 .fundoBody{
     background-color: white;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 
 
@@ -184,7 +184,7 @@ main table{
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
     left: 0px;
-    z-index: -10;
+    z-index: -1;
 }
 
 
