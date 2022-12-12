@@ -184,7 +184,7 @@ main table{
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
     left: 0px;
-    z-index: -1;
+   
 }
 
 
@@ -247,6 +247,7 @@ main table{
     animation-name: goD;
     animation-duration: 0.8s;
     animation-fill-mode: forwards;
+    z-index: -2;
 }
 
 @keyframes go {
