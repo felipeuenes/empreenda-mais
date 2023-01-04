@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../styles/contacts.css">
+<script src="scripts/script.js" defer></script>
+    <title>Empreenda Mais</title>
+</head>
+<body>
+
+
+ 
+  <div class="menu-animation">
+        
+    <div class="div-menu ">
+  
+      
+      <h1>Menu</h1>
+      
+
+      <a href="../index.html"><button>Home</button></a>
+      <a href="pages/palestra.html"><button>Palestras</button></a>
+      <a href="pages/cursos.html"><button>Cursos</button></a>
+      <a href="pages/sobre.html"><button>Sobre</button></a>
+      <a href="#"><button>Contatos</button></a>
+
+
+    </div>
+  </div>
+  
+  <div class=" " id="animation-body">
+  <div class="fundoBody">
+
+  
+  <header>
+    <img src="../images/logo-branca.png" alt="">
+    
+    <!-- <button id="botao" onclick="login()">Teste</button> -->
+    
+    <img class="barras" src="../images/barras-menu.png" alt="" id="myMenu">
+    
+    
+  </header>
+  
+    <main>
+
+
+  
+       <script>
+        const myButtonMenu = document.querySelector("#myMenu");
+        let cardMenu = document.querySelector(".div-menu");
+  
+      
+       </script>
+  
+  
+  
+  <script>
+        
+      
+      let animation = document.querySelector("#animation-body");
+      
+        myButtonMenu.addEventListener("click", () => {
+          let isMenuActive = animation.classList.contains("containerGeral")
+  
+          console.log(isMenuActive);
+  
+          if (isMenuActive) {
+              animation.classList.remove("containerGeral");
+              animation.classList.add("containerGeralDesative");
+           } 
+           else{
+              animation.classList.remove("containerGeralDesative");
+              animation.classList.add("containerGeral");
+          }
+        })
+        
+  
+  
+    </script>
+
+
+
+
+
+
+
+
+
+      <div class="fundoContacts">
+        <h1>teste</h1>
+       </div>
+       
+       
+
+
+     
+    </main>
+</body>
+</html>
